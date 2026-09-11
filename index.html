@@ -1,0 +1,370 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Cost Estimator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/6017db9c35.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body class="container ds-bg-canvas u-pad-48">
+    <section class="main-content u-gap-32">
+      <header class="container-heading u-gap-8">
+        <h1 class="ds-h1 ds-text-default">Estimate your cost</h1>
+        <p class="ds-body ds-text-default">
+          Find the right plan for your team by estimating monthly session
+          volume. Compare billing options, understand pricing at scale, and
+          choose the level of support that fits your growth.
+        </p>
+      </header>
+      <section class="cost-container ds-surface-white ds-media-soft">
+        <nav class="cost-nav">
+          <ul class="cost-nav-list">
+            <li class="nav-item u-pad-16">
+              <span class="nav-item-text ds-h4 u-text-uppercase">Free</span>
+            </li>
+            <li class="nav-item u-pad-16 is-selected">
+              <span class="nav-item-text ds-h4 u-text-uppercase">Team</span>
+            </li>
+            <li class="nav-item u-pad-16">
+              <span class="nav-item-text ds-h4 u-text-uppercase"
+                >Professional</span
+              >
+            </li>
+            <li class="nav-item u-pad-16">
+              <span class="nav-item-text ds-h4 u-text-uppercase"
+                >Enterprise</span
+              >
+            </li>
+          </ul>
+          <div class="cost-nav-underline c-divider c-divider-strong"></div>
+        </nav>
+        <div class="cost-content u-gap-48">
+          <div class="cost-head u-gap-24">
+            <div class="cost-heading u-gap-32">
+              <img src="assets/icon1.png" alt="cell-phone-image" />
+              <div class="segmented u-pad-8 u-gap-8">
+                <div class="tab-item">
+                  <input
+                    type="radio"
+                    class="c-check-input"
+                    id="mobile"
+                    name="tab-group"
+                    checked
+                  />
+                  <label class="tab-check-label" for="mobile"
+                    ><span
+                      class="c-check-text ds-h5 ds-text-semibold u-text-uppercase"
+                      >Mobile</span
+                    ></label
+                  >
+                </div>
+                <div class="tab-item">
+                  <input
+                    type="radio"
+                    class="c-check-input"
+                    id="web"
+                    name="tab-group"
+                  />
+                  <label class="tab-check-label" for="web"
+                    ><span
+                      class="c-check-text ds-h5 ds-text-semibold u-text-uppercase"
+                      >Web</span
+                    ></label
+                  >
+                </div>
+              </div>
+              <img src="assets/icon2.png" alt="user-profile-image" />
+            </div>
+          </div>
+          <div class="cost-session u-gap-24">
+            <div
+              class="cost-session-meta ds-surface-soft ds-border ds-border-soft u-pad-24 u-gap-4"
+            >
+              <h3
+                class="session-label ds-h5 ds-text-semibold ds-text-default u-text-uppercase"
+              >
+                Current Monthly Sessions
+              </h3>
+              <p
+                class="session-value ds-display-lg ds-text-semibold ds-brand-default"
+              >
+                30,000
+              </p>
+            </div>
+            <div class="cost-session-aside ds-body ds-text-default">
+              A session is a continuous period of user activity on your web app
+              or website. Choose exactly how many sessions you wish to record
+              and discard the extras.
+            </div>
+          </div>
+          <div class="cost-slider u-gap-16">
+            <div
+              class="cost-slider-bar ds-surface-soft ds-border ds-border-soft"
+            >
+              <div class="bar-progress">
+                <div class="bar-progress-point"></div>
+              </div>
+            </div>
+            <ul class="cost-slider-scale">
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  0
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  1K
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  10K
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  25K
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  50K
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  250K
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  1M
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  10M
+                </p>
+              </li>
+              <li class="scale-value u-gap-4">
+                <p
+                  class="ds-body-sm ds-text-semibold ds-text-subtle u-text-uppercase"
+                >
+                  250M
+                </p>
+              </li>
+            </ul>
+          </div>
+          <div class="cost-cards u-gap-32">
+            <article
+              class="pricing-card u-pad-24 u-gap-32 ds-border ds-border-soft"
+            >
+              <header class="pricing-card-head u-gap-32">
+                <div class="pricing-plan u-gap-4">
+                  <p
+                    class="pricing-label ds-body ds-text-semibold ds-text-default"
+                  >
+                    Monthly Billing
+                  </p>
+                  <p class="pricing-description ds-body ds-text-subtle">
+                    For short-term teams
+                  </p>
+                </div>
+                <div class="pricing-rate u-gap-4">
+                  <p class="pricing-price ds-display-md ds-text-default">
+                    $199
+                  </p>
+                  <p class="pricing-frequency ds-body-sm ds-text-subtle">
+                    per month
+                  </p>
+                </div>
+              </header>
+              <button class="c-btn c-btn-brand-outline" type="button">
+                Start Free Trial
+              </button>
+              <ul class="pricing-feature-list u-gap-16">
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Start month to month</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >20,000 monthly sessions</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >1-month data retention</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >10 team members</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Cancel anytime</span
+                  >
+                </li>
+              </ul>
+            </article>
+            <article
+              class="pricing-card u-pad-24 u-gap-32 ds-border ds-border-brand"
+            >
+              <span class="c-badge c-badge-brand ds-body-sm">16% Off</span>
+              <header class="pricing-card-head u-gap-32">
+                <div class="pricing-plan u-gap-4">
+                  <p
+                    class="pricing-label ds-body ds-text-semibold ds-text-default"
+                  >
+                    Annual Billing
+                  </p>
+                  <p class="pricing-description ds-body ds-text-subtle">
+                    For growing teams
+                  </p>
+                </div>
+                <div class="pricing-rate u-gap-4">
+                  <p class="pricing-price ds-display-md ds-text-default">
+                    $2,148
+                  </p>
+                  <p class="pricing-frequency ds-body-sm ds-text-subtle">
+                    $179 per month, billed yearly
+                  </p>
+                </div>
+              </header>
+              <button class="c-btn c-btn-brand" type="button">
+                Start Free Trial
+              </button>
+              <ul class="pricing-feature-list u-gap-16">
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Billed once yearly</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >20,000 monthly sessions</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >1-month data retention</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >10 team members</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Includes annual discount</span
+                  >
+                </li>
+              </ul>
+            </article>
+            <article
+              class="pricing-card u-pad-24 u-gap-32 ds-border ds-border-soft"
+            >
+              <header class="pricing-card-head u-gap-32">
+                <div class="pricing-plan u-gap-4">
+                  <p
+                    class="pricing-label ds-body ds-text-semibold ds-text-default"
+                  >
+                    Enterprise
+                  </p>
+                  <p class="pricing-description ds-body ds-text-subtle">
+                    For high-volume teams
+                  </p>
+                </div>
+                <div class="pricing-rate u-gap-4">
+                  <p class="pricing-price ds-display-md ds-text-default">
+                    Custom
+                  </p>
+                  <p class="pricing-frequency ds-body-sm ds-text-subtle">
+                    Tailored annual agreement
+                  </p>
+                </div>
+              </header>
+              <button class="c-btn c-btn-brand-outline" type="button">
+                Contact Sales
+              </button>
+              <ul class="pricing-feature-list u-gap-16">
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Custom session volume</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >12-month data retention</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Unlimited team members</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Priority support</span
+                  >
+                </li>
+                <li class="feature-list-item u-gap-8">
+                  <i class="fa-solid fa-circle-check ds-brand-default"></i>
+                  <span class="feature-list-text ds-body ds-text-default"
+                    >Custom integrations</span
+                  >
+                </li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+    </section>
+  </body>
+</html>
