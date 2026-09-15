@@ -8,7 +8,7 @@
 
 ![Before — the original course Cost Estimator](original.png)
 
-### After — My version, pushed beyond the course requirement
+### After — My version extends the course exercise with an expanded HTML/CSS interface.
 
 ![After — the improved Cost Estimator interface](preview.png)
 
